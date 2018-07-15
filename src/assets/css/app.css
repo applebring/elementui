@@ -1,0 +1,39 @@
+/* 自定义全局通用css */
+html,body,#app{
+    /* position: relative; */
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+body{
+    font-family:"Helvetica Neue",Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+.component-tips{
+    width: 100%;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    opacity: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    background-color: #f0f9eb;
+    color: #EB9E05;
+    line-height:1.6;
+}
+.component-title{
+    width: 100%;
+    padding:0 6px;
+    color:#878D99;
+    border-left:3px solid #20a0ff;
+    margin-bottom: 10px;
+}
