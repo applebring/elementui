@@ -8,12 +8,25 @@ const VueEchart = resolve => require(['../page/Demo/echart/vueechart.vue'],resol
 const VueEchartV3 = resolve => require(['../page/Demo/echart/vueechartv3.vue'],resolve);
 const Logout = resolve => require(['../page/System/logout.vue'],resolve);
 const Transfer = resolve => require(['../page/Demo/transfer.vue'],resolve);
+const MultiCheckbox = resolve => require(['../page/Demo/multicheckbox.vue'],resolve);
+const Particle = resolve => require(['../page/Demo/particle.vue'],resolve);
+const Test = resolve => require(['../page/Demo/test.vue'],resolve);
 Vue.use(Router)
 let routes = [
   {
     path:'/',redirect:'/home',
     meta:{
       isMenu:false
+    }
+  },
+  {
+    path:'/particle',
+    component:Particle,
+    name:"粒子动画",
+    meta:{
+      isMenu:false,
+      isParent:false,
+      icon:''
     }
   },
   {
@@ -56,6 +69,16 @@ let routes = [
         path:'/transfer',
         component:Transfer,
         name:"自定义穿梭框"
+      },
+      {
+        path:'/multicheckbox',
+        component:MultiCheckbox,
+        name:"多选框模糊搜索"
+      },
+      {
+        path:'/test',
+        component:Test,
+        name:"测试"
       }
     ]
   },

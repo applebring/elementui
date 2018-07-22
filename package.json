@@ -52,6 +52,7 @@
     "vue-echarts": "^3.0.7",
     "vue-echarts-v3": "^1.0.19",
     "vue-loader": "^13.3.0",
+    "vue-particles": "^1.0.9",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
     "vuex": "^3.0.1",

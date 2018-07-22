@@ -11,6 +11,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 import '@/assets/fonts/iconfont.css';    //引入图标
 import NProgress from 'nprogress';//Progress进度条
 import '@/assets/lib/nprogress/nprogress.css';// 不从moduel引入是为方便修改样式 
+//particlejs
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
